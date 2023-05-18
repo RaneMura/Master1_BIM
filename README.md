@@ -1,2 +1,2 @@
-# Master_1_Bio-Informatique_et_Modelisation
+# Master 1 Bio-Informatique et Modelisation
 Travaux effectués lors du Master 1 BIM-BMC
