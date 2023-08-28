@@ -1,0 +1,128 @@
+creer une base : createdb "nom de bd" (subzero)
+acces a la base : psql "nombd"
+ou juste psql accède à une base avec notre nom en accès
+
+On va recréer la base bibloigraphie
+
+Pour créer une table dans ma base journaux: 
+CREATE TABLE journaux(
+issn TEXT PRIMARY KEY,
+nom_journal TEXT,
+abreviation TEXT,
+editeur TEXT
+);  CREATE TABLE
+
+accès table : \d
+accès table journaux: \d journaux
+
+regarder le contenu (vide ici) de journaux : 
+SELECT * FROM journaux;
+
+ajouter des instances dans la base : 
+INSERT INTO journaux
+VALUES('0028-0836','Nature','Nature','Nature Publishing Group');
+
+ajouter des instances avec un ordre particulier:
+INSERT INTO journaux
+(nom_journal,editeur,abreviation,issn)
+VALUES('Journal of Molecular Biology',
+'Academic Press',
+'J. Mol. Biol.',
+'022-2836');
+
+supprimer une instance : 
+DELETE FROM journaux WHERE issn = '3654160145' OR issn = '1';
+Si bon , 1 sinon 0
+
+Une instance peut être crée aussi seule avec la clé primaire:
+INSERT INTO journaux VALUES('1');
+
+supprimer toute une table :
+DELETE FROM journaux;
+
+Copier depuis le terminal le contenu du dossier bdb dans le home dir: 
+cp ../BdDbiblio/* .
+
+regarder le contenu du fichier : 
+cat journaux.csv 
+
+copier le contenu d'un fichier dans une base selon un délimiteur:
+\copy journaux FROM 'journaux.csv' DELIMITER ','
+
+copier le contenu dans le bon ordre comme dans le fichier :
+\copy journaux (nom_journal,abreviation,issn,editeur)
+FROM 'journaux.csv' DELIMITER ','
+
+creer la table des auteurs:
+CREATE TABLE auteurs(
+nom TEXT,
+prenom TEXT,
+CONSTRAINT auteurs_pkey PRIMARY KEY(nom,prenom)
+);
+
+copier les auteurs : 
+\copy auteurs FROM 'auteurs.csv' DELIMITER ','
+
+creer la table articles (references : liaison clé étrangere):
+CREATE TABLE articles(
+titre TEXT,
+issn TEXT REFERENCES journaux(issn),
+volume SMALLINT, 
+debut SMALLINT,
+fin SMALLINT,
+annee SMALLINT,
+doi TEXT PRIMARY KEY
+);
+
+copier les articles : 
+\copy articles FROM 'articles.csv' DELIMITER ','
+
+supprimer une table : 
+DROP TABLE journaux (ne marche pas car journaux est référencé par une autre entité)
+DROP TABLE journaux CASCADE (marche impacte les référencés)
+DROP TABLE tableasupprimer;
+
+ajouter en modifiant les props de la table : 
+ALTER TABLE articles
+ADD CONSTRAINT articles_issn_fkey FOREIGN KEY(issn)
+REFERENCES journaux(issn)
+
+creer articlesxauteurs:
+CREATE TABLE article_x_auteur(
+doi TEXT REFERENCES articles(doi) 
+	ON UPDATE CASCADE
+	ON DELETE CASCADE,
+nom TEXT,
+prenom TEXT,
+rang SMALLINT,
+CONSTRAINT article_x_auteur_fkey 
+	FOREIGN KEY(nom,prenom) REFERENCES auteurs(nom,prenom)
+	ON UPDATE CASCADE
+	ON DELETE CASCADE,
+CONSTRAINT article_x_auteur_pkey PRIMARY KEY (doi,nom,prenom)
+); 
+
+copier le contenu dans le bon ordre comme dans le fichier :
+\copy article_x_auteur FROM 'article_x_auteur.csv' DELIMITER ','
+
+modifier une table pour modifier le type de la colonne:
+ALTER TABLE journaux ALTER COLUMN issn TYPE CHAR(9);
+ALTER TABLE articles ALTER COLUMN issn TYPE CHAR(9); (car pas de cascade définie)
+
+contrainte de vérification issn avec regex :
+ALTER TABLE journaux ADD CONSTRAINT issn_ok
+CHECK (issn ~ '^[0-9]{4}-[0-9]{4}$');
+
+test1 td1 :
+SELECT nom,prenom,SUBSTRING(titre,1,20) AS "titre tronquée",abreviation
+FROM article_x_auteur NATURAL JOIN articles NATURAL JOIN journaux;
+
+POUR RÉCUPERER LE CODE DE CRÉATION DE LA BASE VOULUE :
+sortir de la base puis:
+pg_dump subzero > subzero.dump
+less subzero.dump
+
+pour créer une base :
+createdb base
+psql base < subzero.dump
+
