@@ -1,0 +1,158 @@
+>Q9FGX2.1:16-91 RecName: Full=Basic leucine zipper 1; Short=AtbZIP1; Short=bZIP protein 1 [Arabidopsis thaliana]
+----KKRKRKLSNRESARRSRLKKQKLMEDTIHEISSLERRIKENSERCRAVKQRLDSVE
+TENAGLRSEKIWLSSYVSDL
+>P24068.2:26-85 RecName: Full=Ocs element-binding factor 1; Short=OCSBF-1 [Zea mays]
+----RREKRRLSNRESARRSRLRKQQHLDELVQEVARLQADNARVAARARDIASQYTRVE
+QENT----------------
+>Q9LZP8.1:25-84 RecName: Full=bZIP transcription factor 53; Short=AtbZIP53 [Arabidopsis thaliana]
+----RKRKRMISNRESARRSRMRKQKQLGDLINEVTLLKNDNAKITEQVDEASKKYIEME
+SKNN----------------
+>Q9CA46.1:47-91 RecName: Full=Basic leucine zipper 8; Short=AtbZIP8; Short=bZIP protein 8 [Arabidopsis thaliana]
+----RKRRRKVSNRESARRSRMRKQRHMEELWSMLVQLINKNKSLVDEL-----------
+--------------------
+>Q9SI15.1:31-89 RecName: Full=bZIP transcription factor 2; Short=AtbZIP2; AltName: Full=G-box-binding factor 5; AltName: Full=Protein FLORAL TR
+----RKRKRMLSNRESARRSRMRKQKHVDDLTAQINQLSNDNRQILNSLTVTSQLYMKIQ
+AEN-----------------
+>Q9FMC2.1:72-112 RecName: Full=Basic leucine zipper 43; Short=AtbZIP43; Short=bZIP protein 43 [Arabidopsis thaliana]
+----RKQKRKISNRESARRSRMRKQRQVDELWSQVMWLRDENHQL---------------
+--------------------
+>C0Z2L5.1:41-100 RecName: Full=bZIP transcription factor 44; Short=AtbZIP44 [Arabidopsis thaliana]
+----RKRKRKQSNRESARRSRMRKQKHLDDLTAQVTHLRKENAQIVAGIAVTTQHYVTIE
+AEND----------------
+>O65683.1:27-85 RecName: Full=bZIP transcription factor 11; Short=AtbZIP11; AltName: Full=G-box-binding factor 6; AltName: Full=bZIP transcript
+----RKRKRMLSNRESARRSRMKKQKLLDDLTAQVNHLKKENTEIVTSVSITTQHYLTVE
+AEN-----------------
+>P52890.1:472-530 RecName: Full=Transcription factor atf1; AltName: Full=Protein sss1; AltName: Full=Transcription factor mts1 [Schizosaccharomyc
+--EEKRKSFLERNRQAALKCRQRKKQWLSNLQAKVEFYGNENEILSAQVSALREEIVSLK
+T-------------------
+>P79145.2:300-351 RecName: Full=cAMP-responsive element modulator [Canis lupus familiaris]
+EATRKRELRLMKNREAARECRRKKKEYVKCLENRVAVLENQNKTLIEELKAL--------
+--------------------
+>P15337.2:267-318 RecName: Full=Cyclic AMP-responsive element-binding protein 1; Short=CREB-1; Short=cAMP-responsive element-binding protein 1 [R
+EAARKREVRLMKNREAARECRRKKKEYVKCLENRVAVLENQNKTLIEELKAL--------
+--------------------
+>Q01147.2:267-318 RecName: Full=Cyclic AMP-responsive element-binding protein 1; Short=CREB-1; Short=cAMP-responsive element-binding protein 1 [M
+EAARKREVRLMKNREAARECRRKKKEYVKCLENRVAVLENQNKTLIEELKAL--------
+--------------------
+>Q9VWW0.1:302-349 RecName: Full=Cyclic AMP response element-binding protein B; Short=cAMP response element-binding protein B; Short=dCREB-B [Dros
+----KREIRLQKNREAARECRRKKKEYIKCLENRVAVLENQNKALIEELKSL--------
+--------------------
+>Q08DA8.1:210-261 RecName: Full=Cyclic AMP-dependent transcription factor ATF-1; Short=cAMP-dependent transcription factor ATF-1; AltName: Full=A
+DPQLKREIRLMKNREAARECRRKKKEYVKCLENRVAVLENQNKTLIEELKTL--------
+--------------------
+>Q54Y73.1:389-450 RecName: Full=Probable basic-leucine zipper transcription factor D [Dictyostelium discoideum]
+ERNVKKQRRLIKNRESAQLSRMRKKIYIEDLEKTISDLTQDNSSLKEEVLYLQGLVKQLA
+AQ------------------
+>Q54WN7.1:403-457 RecName: Full=Probable basic-leucine zipper transcription factor F [Dictyostelium discoideum]
+ERHQKRQRRLVKNREAAQLFRQRQKAYIQDLEKKVSDLTGTNSEFRARVELLNSE-----
+--------------------
+>Q9SG86.1:191-249 RecName: Full=bZIP transcription factor 28; Short=AtbZIP28 [Arabidopsis thaliana]
+---KRKLIRQIRNRESAQLSRLRKKQQTEELERKVKSMNATIAELNGKIAYVMAENVALR
+QQ------------------
+>Q54RZ9.1:276-336 RecName: Full=Probable basic-leucine zipper transcription factor G [Dictyostelium discoideum]
+-KELKRQKRLIKNRESAHLSRQRKRERLTDLEHRVEELSSNSIDINKTLSSLENENLILK
+AE------------------
+>P12959.1:227-285 RecName: Full=Regulatory protein opaque-2 [Zea mays]
+----ERVRKKESNRESARRSRYRKAAHLKELEDQVAQLKAENSCLLRRIAALNQKYNDAN
+VDN-----------------
+>Q9FUD3.1:120-166 RecName: Full=Basic leucine zipper 9; Short=AtbZIP9; Short=bZIP protein 9; AltName: Full=Basic leucine zipper OPAQUE 2 homolog 
+--DLKRIRRMNSNRESAKRSRRRKQEYLVDLETQVDSLKGDNSTLYKQL-----------
+--------------------
+>Q6ETX0.1:141-187 RecName: Full=bZIP transcription factor RISBZ3; AltName: Full=Rice seed bZIP3; AltName: Full=bZIP transcription factor 20; Shor
+--DVKRMRRMVSNRESARRSRKRKQAHLADLETQVDQLRGENASLFKQL-----------
+--------------------
+>Q6H500.2:122-168 RecName: Full=bZIP transcription factor RISBZ4; AltName: Full=Rice seed bZIP4; AltName: Full=bZIP transcription factor 15; Shor
+--DVKRVRRMVSNRESARRSRKRKQAHLADLESQVDQLRGENASLFKQL-----------
+--------------------
+>Q9MA75.1:196-254 RecName: Full=Transcription factor VIP1; AltName: Full=Protein SULPHATE UTILIZATION EFFICIENCY 3; AltName: Full=VirE2-interacti
+----KRAKRILANRQSAARSKERKIRYTGELERKVQTLQNEATTLSAQVTMLQRGTSELN
+TEN-----------------
+>Q6S4P4.2:134-192 RecName: Full=Transcription factor RF2b [Oryza sativa Japonica Group]
+----KRAKRILANRQSAARSKERKARYITELERKVQTLQTEATTLSAQLTLFQRDTTGLS
+AEN-----------------
+>O22873.1:150-209 RecName: Full=bZIP transcription factor 18; Short=AtbZIP18; Short=bZIP protein 18 [Arabidopsis thaliana]
+----KRAKRIIANRQSAARSKERKARYILELERKVQTLQTEATTLSAQLSLFQRDTTGLS
+SENT----------------
+>Q04088.1:203-262 RecName: Full=Probable transcription factor PosF21; AltName: Full=bZIP transcription factor 59; Short=AtbZIP59 [Arabidopsis tha
+----KRAKRIWANRQSAARSKERKTRYIFELERKVQTLQTEATTLSAQLTLLQRDTNGLT
+VENN----------------
+>Q69IL4.1:183-242 RecName: Full=Transcription factor RF2a [Oryza sativa Japonica Group]
+----KRAKRIWANRQSAARSKERKMRYIAELERKVQTLQTEATTLSAQLALLQRDTSGLT
+TENS----------------
+>O44743.2:282-336 RecName: Full=CREB-H transcription factor homolog let-607; AltName: Full=Lethal 607 protein [Caenorhabditis elegans]
+ERDLKRIRRKIRNKRSAQTSRKRKQDYIEQLEDRVSESTKENQALKQQIERLSSE-----
+--------------------
+>Q9C5Q2.1:192-233 RecName: Full=ABSCISIC ACID-INSENSITIVE 5-like protein 3; AltName: Full=Dc3 promoter-binding factor 4; Short=AtDPBF4; AltName: 
+----RRQKRMIKNRESAARSRARKQAYTHELEIKVSRLEEENEKLR--------------
+--------------------
+>Q9LES3.1:227-268 RecName: Full=ABSCISIC ACID-INSENSITIVE 5-like protein 2; AltName: Full=ABA-responsive element-binding protein 3; AltName: Full
+----RRQKRMIKNRESAARSRARKQAYTHELEIKVSRLEEENERLR--------------
+--------------------
+>Q8RZ35.1:304-346 RecName: Full=bZIP transcription factor ABI5 homolog; Short=OsABI5; AltName: Full=bZIP transcription factor 10; Short=OsBZIP10 
+----RRQRRMIKNRESAARSRARKQAYTVELEAELNYLKQENARLKE-------------
+--------------------
+>Q9SJN0.1:357-404 RecName: Full=Protein ABSCISIC ACID-INSENSITIVE 5; AltName: Full=Dc3 promoter-binding factor 1; Short=AtDPBF1; AltName: Full=Pr
+----RRQRRMIKNRESAARSRARKQAYTVELEAELNQLKEENAQLKHALAEL--------
+--------------------
+>Q9M7Q5.1:313-353 RecName: Full=ABSCISIC ACID-INSENSITIVE 5-like protein 4; AltName: Full=Abscisic acid responsive elements-binding factor 1; Sho
+----RRQKRMIKNRESAARSRARKQAYTLELEAEIESLKLVNQDL---------------
+--------------------
+>Q9M7Q2.1:353-393 RecName: Full=ABSCISIC ACID-INSENSITIVE 5-like protein 7; AltName: Full=ABA-responsive element-binding protein 2; AltName: Full
+----RRQRRMIKNRESAARSRARKQAYTLELEAEIEKLKKTNQEL---------------
+--------------------
+>Q9M7Q3.1:374-416 RecName: Full=ABSCISIC ACID-INSENSITIVE 5-like protein 6; AltName: Full=Abscisic acid responsive elements-binding factor 3; Sho
+----RRQKRMIKNRESAARSRARKQAYTMELEAEIAQLKELNEELQK-------------
+--------------------
+>Q6Z312.1:277-319 RecName: Full=bZIP transcription factor 23; Short=OsBZIP23; AltName: Full=ABRE-binding factor 2; Short=OsABF2; AltName: Full=Ab
+----RRQRRMIKNRESAARSRQRKQAYMMELEAEVAKLKELNDELQK-------------
+--------------------
+>Q9M7Q4.1:338-380 RecName: Full=ABSCISIC ACID-INSENSITIVE 5-like protein 5; AltName: Full=ABA-responsive element-binding protein 1; AltName: Full
+----RRQRRMIKNRESAARSRARKQAYTVELEAEVAKLKEENDELQR-------------
+--------------------
+>Q6ZDF3.2:288-328 RecName: Full=bZIP transcription factor TRAB1; AltName: Full=Protein ABA RESPONSIVE ELEMENT 1 [Oryza sativa Japonica Group]
+----RRQRRMIKNRESAARSRARKQAYTMELEAEVQKLKEQNMEL---------------
+--------------------
+>P25032.1:248-310 RecName: Full=DNA-binding protein EMBP-1; AltName: Full=Histone promoter-binding protein 1a(1); Short=HBP-1a(1) [Triticum aesti
+ERELKRERRKQSNRESARRSRLRKQQECEELAQKVSELTAANGTLRSELDQLKKDCKTME
+TEN-----------------
+>Q99142.1:192-254 RecName: Full=Transcriptional activator TAF-1 [Nicotiana tabacum]
+ERELKREKRKQSNRESARRSRLRKQAEAEELAIRVQSLTAENMTLKSEINKLMENSEKLK
+LEN-----------------
+>Q99089.1:267-330 RecName: Full=Common plant regulatory factor 1; Short=CPRF-1 [Petroselinum crispum]
+DRDLKRERRKQSNRESARRSRLRKQAEAEELAIKVDSLTAENMALKAEINRLTLTAEKLT
+NDNS----------------
+>P42775.1:247-309 RecName: Full=G-box-binding factor 2; AltName: Full=bZIP transcription factor 54; Short=AtbZIP54 [Arabidopsis thaliana]
+EKEVKREKRKQSNRESARRSRLRKQAETEQLSVKVDALVAENMSLRSKLGQLNNESEKLR
+LEN-----------------
+>P42776.2:257-319 RecName: Full=G-box-binding factor 3; AltName: Full=bZIP transcription factor 55; Short=AtbZIP55 [Arabidopsis thaliana]
+ERELKRERRKQSNRESARRSRLRKQAETEELARKVEALTAENMALRSELNQLNEKSDKLR
+GAN-----------------
+>Q99091.1:194-257 RecName: Full=Light-inducible protein CPRF3; AltName: Full=Common plant regulatory factor 3; Short=CPRF-3 [Petroselinum crispum
+ERELKRQRRKQSNRESARRSRLRKQAKSDELQERLDNLSKENRILRKNLQRISEACAEVT
+SENH----------------
+>Q501B2.1:303-365 RecName: Full=bZIP transcription factor 16; Short=AtbZIP16 [Arabidopsis thaliana]
+DRELKRQRRKQSNRESARRSRLRKQAECDELAQRAEVLNEENTNLRAEINKLKSQCEELT
+TEN-----------------
+>Q84LG2.1:293-356 RecName: Full=bZIP transcription factor 68; Short=AtbZIP68 [Arabidopsis thaliana]
+EREIKRQRRKQSNRESARRSRLRKQAECDELAQRAEVLNGENSSLRAEINKLKSQYEELL
+AENS----------------
+>P42774.2:220-283 RecName: Full=G-box-binding factor 1; Short=AtGBF1; AltName: Full=bZIP transcription factor 41; Short=AtbZIP41 [Arabidopsis tha
+ERELKRQKRKQSNRESARRSRLRKQAECEQLQQRVESLSNENQSLRDELQRLSSECDKLK
+SENN----------------
+>unknown
+ERELKRQKRKQSNRESARRSRLRKQAECEQLQQRVESLSNENQSLRDELQRLSSECDKLK
+SENN----------------
+>A0A3B6KF13.1:291-354 RecName: Full=bZIP transcription factor 1-A; Short=TabZIP1-A [Triticum aestivum]
+ERELKRQKRKQSNRDSARRSRLRKQAECEELAQRAEVLKQENASLKDEVSRIRKEYDELL
+SKNS----------------
+>B6E107.1:291-354 RecName: Full=bZIP transcription factor 1-B; Short=TabZIP1-B [Triticum aestivum]
+ERELKRQKRKQSNRDSARRSRLRKQAECEELAQRAEVLKQENASLKDEVSRIRKEYDELL
+SKNS----------------
+>A0A3B6MPP5.1:291-354 RecName: Full=bZIP transcription factor 1-D; Short=TabZIP1-D [Triticum aestivum]
+ERELKRQKRKQSNRDSARRSRLRKQAECEELAQRAEVLKQENASLKDEVSRIRKEYDELL
+SKNS----------------
+>P23922.1:250-312 RecName: Full=Transcription factor HBP-1a; AltName: Full=Histone-specific transcription factor HBP1 [Triticum aestivum]
+ERELKKQKRKLSNRESARRSRLRKQAECEELGQRAEALKSENSSLRIELDRIKKEYEELL
+SKN-----------------
+>unknown
+ERELKRQKRKQSNRESARRSRLRKQAECEQLQQRVESLSNENQSLRDELQRLSSECDKLKSENN
