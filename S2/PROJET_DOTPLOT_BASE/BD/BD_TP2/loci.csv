@@ -1,0 +1,51 @@
+locus_uid,nom_locus,symbole_locus,role_locus,position_bande
+LO000168P,Dopamine Receptor D2,DRD2,receptor,11q23
+LO000171J,Dystrophia myotonica-protein kinase,DMPK,kinase,19q13.3
+LO000199T,Apolipoprotein B (including Ag(x) antigen),APOB,ligand_receptor,2p24-p23
+LO000204G,Fibrinogen beta chain,FGB,blood coagulation,4q28.1-q28.3
+LO000205H,Angiotensin I converting enzyme (peptidyl-dipeptidase A) 1,ACE,catalysor_deactivator,17q23
+LO000206I,Adrenergic_beta-2-_receptor_surface,ADRB2,receptor_neurotransmitter,5q31-q32
+LO000209L,Nerve growth factor receptor (TNFR superfamily_member 16),NGFR,growth factor,17q21-q22
+LO000214H,D3S1262,D3S1262,,3q27
+LO000215I,D3S1263,D3S1263,,3p25
+LO000216J,D3S1266,D3S1266,,3p23
+LO000217K,D3S1267,D3S1267,,3q13.1-q13.2
+LO000218L,D3S1271,D3S1271,,3q12
+LO000222G,D3S1285,D3S1285,,3p14.1--p14.2
+LO000224I,D3S1292,D3S1292,,3q21-q22
+LO000225J,D3S1297,D3S1297,,3p26
+LO000227L,Dopamine receptor D4,DRD4,neurotransmitter_receptor,11p15.5
+LO000228M,Alcohol Dehydrogenase 1C (class I)_gamma polypeptide,ADH1C,dehydrogenase_metaboliser,4q21-q23
+LO000237M,Renin,REN,blood coagulation,1q32-qter
+LO000253K,D9S249,D9S249,,9q12-q31
+LO000258P,V-Ha-ras Harvey rat sarcoma viral oncogene homolog,HRAS,activator,11p15.5
+LO000259Q,Von Willebrand factor,VWF,protein binding_blood coagulation,12p13.3-p13.2
+LO000298T,globin gene cluster,HBB@,,11p15.5
+LO000300D,Aryl hydrocarbon receptor,AHR,transcription factor_receptor,7p15
+LO000301E,Cholinergic receptor_muscarinic 1,CHRM1,receptor,11q12-q13
+LO000302F,Cholinergic receptor_muscarinic 3,CHRM3,receptor,1q41-q44
+LO000303G,Cytochrome P450_family 1_subfamily A_polypeptide 2,CYP1A2,oxygenase_catalysor,15q22-qter
+LO000304H,Cytochrome P450_family 2_subfamily C_polypeptide 9,CYP2C9,oxygenase_catalysor,10q24.1
+LO000305I,Cytochrome P450_family 3_subfamily A_polypeptide 4,CYP3A4,oxygenase_catalysor,7q21.1
+LO000306J,Epoxide hydrolase 1_microsomal (xenobiotic),EPHX1,hydrolase_activator_detoxificator,1q42.1
+LO000307K,Histamine N-methyltransferase,HNMT,catalysor_methylation,2q21.2-q21.3
+LO000309M,Kallikrein 2_prostatic,KLK2,protease,19q13.2-q13.4
+LO000311F,N-acetyltransferase 2 (arylamine N-acetyltransferase),NAT2,activator_deactivator,p22
+LO000324J,Cytochrome P450_family 1_subfamily A_polypeptide 1,CYP1A1,oxygenase_catalysor,15q22-q24
+LO000330G,Phosphoglycolate phosphatase,PGP,hydrolase_catalysor,16p13.3
+LO000331H,D12S67,D12S67,,12q14
+LO000335L,Catalase,CAT,catalase,11p13
+LO000336M,Transferrin,TF,Iron-binding,3q21
+LO000338O,Glucose-6-phosphate dehydrogenase,G6PD,catalysor_dehydrogenase,Xq28
+LO000339P,Phosphoglucomutase 1,PGM1,catalysor_mutase,1p22.1
+LO000368R,Orosomucoid 1,ORM1,carrier,9q31-qter
+LO000369S,Alpha-2-HS-glycoprotein,AHSG,protein binding_growth factor,3q27-q29
+LO000370K,Complement component 6,C6,,5p13
+LO000376Q,Ceruloplasmin (ferroxidase),CP,carrier,3q23-q25
+LO000391N,Glutamic-pyruvate transaminase (alanine aminotransferase),GPT,catalysor_transaminase,8q24.2-qter
+LO000392O,Complement component 3,C3,,19p13.3-p13.2
+LO000393P,Coagulation factor IX (plasma thromboplastic component_Christmas disease_hemophilia B),F9,blood coagulation,Xq26.3-q27.1
+LO000401F,Fragile X mental retardation 1,FMR1,growth factor,Xq27.3
+LO000403H,Cathepsin S,CTSS,protease,q21
+LO002753R,Similar to peptidylprolyl isomerase A isoform 1,LOC342541,catalysor_isomerase,q23.3
+LO003075P,rs33972904  is intergenic between ADH1B and ADH1C,rs33972904,,q21-q23

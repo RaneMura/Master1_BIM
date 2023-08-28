@@ -1,0 +1,126 @@
+base3 : 
+
+
+
+-- chromosome : 
+CREATE TABLE chromosomes(
+nom_chromosome TEXT PRIMARY KEY
+);
+
+-- bandes:
+CREATE TABLE bandes(
+position_bande TEXT PRIMARY KEY,
+nom_chromosome TEXT REFERENCES chromosomes(nom_chromosome)
+	ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+-- locus:
+CREATE TABLE loci(
+locus_uid TEXT PRIMARY KEY,
+nom_locus TEXT,
+symbole_locus TEXT,
+position_bande TEXT REFERENCES bandes(position_bande)
+	ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+-- role locus :
+CREATE TABLE roles_locus(
+nom_role TEXT PRIMARY KEY
+);
+
+-- loci,roles:
+CREATE TABLE loci_x_roles(
+nom_role TEXT REFERENCES roles_locus(nom_role)
+	ON UPDATE CASCADE ON DELETE CASCADE,
+locus_uid TEXT REFERENCES loci(locus_uid)
+	ON UPDATE CASCADE ON DELETE CASCADE,
+CONSTRAINT loci_x_roles_pkey PRIMARY KEY (locus_uid,nom_role)
+);
+
+-- sites :
+CREATE TABLE sites(
+site_uid TEXT PRIMARY KEY,
+nom_site TEXT,
+locus_uid TEXT REFERENCES loci(locus_uid)
+	ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+-- alleles:
+CREATE TABLE alleles(
+allele_uid INTEGER PRIMARY KEY,
+nom_allele TEXT,
+symbole_allele TEXT,
+site_uid TEXT REFERENCES sites(site_uid) 
+	ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+-- langues : 
+CREATE TABLE langues(
+nom_langue TEXT PRIMARY KEY
+);
+
+
+-- regions :
+CREATE TABLE regions(
+nom_region TEXT PRIMARY KEY
+);
+
+-- pop : 
+CREATE TABLE populations(
+pop_uid TEXT PRIMARY KEY,
+nom_population TEXT,
+nom_region TEXT REFERENCES regions(nom_region)
+	ON UPDATE CASCADE ON DELETE CASCADE  
+);
+
+-- popxlang:
+CREATE TABLE populations_x_langues(
+pop_uid TEXT REFERENCES populations(pop_uid)
+	ON UPDATE CASCADE ON DELETE CASCADE,
+nom_langue TEXT REFERENCES langues(nom_langue)
+	ON UPDATE CASCADE ON DELETE CASCADE,
+range TEXT,
+CONSTRAINT populations_x_langues_pkey
+	PRIMARY KEY(pop_uid,nom_langue)
+);
+
+
+-- ech:
+CREATE TABLE echantillons(
+echantillon_uid TEXT PRIMARY KEY,
+nom_echantillon TEXT,
+taille_echantillon INTEGER,
+pop_uid TEXT REFERENCES populations(pop_uid)
+	ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+
+-- freq:
+CREATE TABLE frequences(
+echantillon_uid TEXT REFERENCES echantillons(echantillon_uid)
+	ON UPDATE CASCADE ON DELETE CASCADE,
+allele_uid INTEGER REFERENCES alleles(allele_uid)
+	ON UPDATE CASCADE ON DELETE CASCADE,
+frequence DOUBLE PRECISION, 
+CONSTRAINT frequences_pkey
+	PRIMARY KEY(echantillon_uid,allele_uid)
+);
+
+create table import(
+jnqkn text,
+enbe text);
+
+INSERT INTO TABY SELECT C A FROM TABLE X
+
+
+dumper:
+pg_dump nombase > base.sql
+nano base.sql
+
+UTILISER SERIAL pour uid
+
+
+creer base a parti de script sql
+
+psql nombase (ranepoly)
+/i nomfichiersql (create_polyv2.sql)

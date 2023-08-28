@@ -1,0 +1,91 @@
+BASE DE DONNEES POLYMORPHISM :
+
+1.
+COMMANDE  : \d
+
+2. 
+COMMANDE : \d echantillons 
+
+Indexes:
+    "echantillons_pkey" PRIMARY KEY, btree (echantillon_uid)
+Check constraints:
+    "verif_ech_uid" CHECK (echantillon_uid::text ~ '^SA\d{6}[A-Z]$'::text)
+    "verif_taille" CHECK (taille_echantillon > 0)
+Foreign-key constraints:
+    "echantillons_fkey" FOREIGN KEY (pop_uid) REFERENCES populations(pop_uid) MATCH FULL ON UPDATE CASCADE ON DELETE CASCADE
+Referenced by:
+    TABLE "frequences" CONSTRAINT "frequences_fkey_1" FOREIGN KEY (echantillon_uid) REFERENCES echantillons(echantillon_uid) MATCH FULL ON UPDATE CASCADE ON DELETE CASCADE
+
+3.Déja fait
+
+4. 
+COMMANDE : SELECT * FROM populations;
+
+5.
+COMMANDE : SELECT count(*) FROM regions;
+Il y en a 7
+
+6.
+COMMANDE : SELECT nom_population FROM populations 
+	   WHERE nom_region='Europe';
+
+
+Jews, Sephardic
+ French
+ Greeks
+ Europeans, Mixed
+ Adygei
+ Danes
+ Druze
+ Garfagnana
+
+7.
+COMMANDE : SELECT count(nom_population)
+	   FROM populations 
+	   WHERE nom_region='Europe';
+iL Y EN A 8.
+
+8.
+COMMANDE : SELECT * 
+           FROM echantillons 
+	   WHERE taille_echantillon >300;
+SA000070H
+
+9.
+COMMANDE : SELECT COUNT(*) 
+	   FROM echantillons 
+	   WHERE taille_echantillon>100 
+           AND taille_echantillon<200;
+iL Y EN A  19.
+
+10.
+COMMANDE : SELECT nom_region, nom_population 
+	   FROM regions NATURAL JOIN populations 
+	   ORDER BY nom_region;
+
+11.
+COMMANDE : SELECT nom_chromosome FROM bandes; 
+
+12.
+SELECT nom_chromosome FROM bandes 
+GROUP BY nom_chromosome
+
+SELECT DISTINCT(nom_chromosome) FROM bandes;
+yEN A 16.
+
+
+13.
+commande : SELECT nom_echantillon,echantillon_uid,taille_echantillon,pop_uid 
+	   FROM echantillons 
+	   WHERE nom_echantillon='Zoro';
+Il y en a 2.
+
+14.SELECT nom_echantillon,echantillon_uid 
+   FROM echantillons 
+   WHERE nom_echantillon LIKE 'Druze%';
+Il y en a 2.
+
+15.SELECT nom_echantillon,echantillon_uid FROM echantillons WHERE nom_echantillon LIKE '%Afric%';
+Il y en a 2.
+
+
